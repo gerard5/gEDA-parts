@@ -1,0 +1,96 @@
+v 20110115 2
+P 2400 1100 1900 1100 1 0 0
+{
+T 2400 1100 5 10 0 0 0 0 1
+pintype=pwr
+T 1845 1095 5 10 1 1 0 6 1
+pinlabel=VDD2
+T 1995 1145 5 10 1 1 0 0 1
+pinnumber=8
+T 2400 1100 5 10 0 0 0 0 1
+pinseq=8
+}
+P 2400 800 1900 800 1 0 0
+{
+T 2400 800 5 10 0 0 0 0 1
+pintype=output
+T 1845 795 5 10 1 1 0 6 1
+pinlabel=VOut A
+T 1995 845 5 10 1 1 0 0 1
+pinnumber=7
+T 2400 800 5 10 0 0 0 0 1
+pinseq=7
+}
+P 2400 500 1900 500 1 0 0
+{
+T 2400 500 5 10 0 0 0 0 1
+pintype=output
+T 1845 495 5 10 1 1 0 6 1
+pinlabel=VOut B
+T 1995 545 5 10 1 1 0 0 1
+pinnumber=6
+T 2400 500 5 10 0 0 0 0 1
+pinseq=6
+}
+P 2400 200 1900 200 1 0 0
+{
+T 2400 200 5 10 0 0 0 0 1
+pintype=pwr
+T 1845 195 5 10 1 1 0 6 1
+pinlabel=GND2
+T 1995 245 5 10 1 1 0 0 1
+pinnumber=5
+T 2400 200 5 10 0 0 0 0 1
+pinseq=5
+}
+P 0 1100 500 1100 1 0 0
+{
+T 0 1100 5 10 0 0 0 0 1
+pintype=pwr
+T 555 1095 5 10 1 1 0 0 1
+pinlabel=VDD1
+T 405 1145 5 10 1 1 0 6 1
+pinnumber=1
+T 0 1100 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 800 500 800 1 0 0
+{
+T 0 800 5 10 0 0 0 0 1
+pintype=input
+T 555 795 5 10 1 1 0 0 1
+pinlabel=VIn A
+T 405 845 5 10 1 1 0 6 1
+pinnumber=2
+T 0 800 5 10 0 0 0 0 1
+pinseq=2
+}
+P 0 500 500 500 1 0 0
+{
+T 0 500 5 10 0 0 0 0 1
+pintype=input
+T 555 495 5 10 1 1 0 0 1
+pinlabel=VIn B
+T 405 545 5 10 1 1 0 6 1
+pinnumber=3
+T 0 500 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 200 500 200 1 0 0
+{
+T 0 200 5 10 0 0 0 0 1
+pintype=pwr
+T 555 195 5 10 1 1 0 0 1
+pinlabel=GND1
+T 405 245 5 10 1 1 0 6 1
+pinnumber=4
+T 0 200 5 10 0 0 0 0 1
+pinseq=4
+}
+B 500 0 1400 1400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 500 1500 8 10 1 1 0 0 1
+refdes=U?
+T 9400 1300 8 10 0 1 0 0 1
+footprint=SO8
+T 1000 1500 8 10 1 1 0 0 1
+device=ADuM1200
